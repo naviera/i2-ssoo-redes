@@ -21,11 +21,6 @@ int main(int argc, char *argv[])
 	int estado = 0;
 	char m[10*d];                 // un char es de tamaño 1 Byte
 	srand((unsigned) time(&t));
-	for (int i=0; i<30; i+=1)
-	{
-		printf("%d\n", rand() % 50);
-	}
-
 	for (int i=0; i<5; i+=1)
 	{
 		memoria[i] = -1;
